@@ -18,13 +18,13 @@ Melissa Bot Multi Device is a automated whatsapp bot created by <a href="https:/
 # ```Bot Info```
 <p align="center">
 <a href="https://github.com/SenuBoy/followers"><img title="Followers" src="https://img.shields.io/github/followers/SenuBoy?color=red&style=flat-square"></a>
-<a href="https://github.com/SenuBoy/Queen-Melissa-Bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/SenuBoy/Queen-Melissa-Bot?color=blue&style=flat-square"></a>
-<a href="https://github.com/SenuBoy/Queen-Melissa-Bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SenuBoy/Queen-Melissa-Bot?color=red&style=flat-square"></a>
-<a href="https://github.com/SenuBoy/Queen-Melissa-Bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SenuBoy/Queen-Melissa-Bot?label=Watchers&color=blue&style=flat-square"></a>
-<a href="hhttps://github.com/SenuBoy/Queen-Melissa-Bot"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
-<a href="https://github.com/SenuBoy/Queen-Melissa-Bot/"><img title="Size" src="https://img.shields.io/github/repo-size/SenuBoy/Queen-Melissa-Bot?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSenuBoy%2FQueen-Melissa-Bot4&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/DGXeon/CheemsBot-MD4/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/SenuBoy/Queen-Melissa-Beta/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/SenuBoy/Queen-Melissa-Beta?color=blue&style=flat-square"></a>
+<a href="https://github.com/SenuBoy/Queen-Melissa-Beta/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SenuBoy/Queen-Melissa-Beta?color=red&style=flat-square"></a>
+<a href="https://github.com/SenuBoy/Queen-Melissa-Beta/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SenuBoy/Queen-Melissa-Beta?label=Watchers&color=blue&style=flat-square"></a>
+<a href="hhttps://github.com/SenuBoy/Queen-Melissa-Beta"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
+<a href="https://github.com/SenuBoy/Queen-Melissa-Beta/"><img title="Size" src="https://img.shields.io/github/repo-size/SenuBoy/Queen-Melissa-Beta?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSenuBoy%2FQueen-Melissa-Beta4&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/DGXeon/Queen-Melissa-Beta/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
