@@ -178,7 +178,7 @@ Time ⏰ =  ${xtime} `
 let buttonMessage = {
     image: { url: 'https://i.ibb.co/hXtGkzj/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-i.jpg'},
 caption: xeonbody,
-footer: `⚜𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮⚜`,
+footer: `Queen-Melissa-Beta`,
 buttons,
 headerType: 4
 }
@@ -205,7 +205,7 @@ Time ⏰ =  ${xeontime} `
     let buttonMessage = {
         image: { url: 'https://i.ibb.co/gytytkM/images.jpg'},
     caption: xeonbody,
-    footer: `⚜𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮⚜`,
+    footer: `Queen-Melissa-Beta`,
     buttons,
     headerType: 4
     }
