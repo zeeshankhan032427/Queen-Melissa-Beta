@@ -3,12 +3,12 @@ const chalk = require('chalk')
 
 //Api Website\\ 
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+    zenz: 'https://zenzapis.xyz',
 }
 
 //Api Key\\
 global.APIKeys = {
-	'https://zenzapis.xyz': '5b6a9902b1',
+    'https://zenzapis.xyz': '5b6a9902b1',
 }
 
 
@@ -43,13 +43,13 @@ global.location = "SriLanka, Kaluthara, Panadura" //ur location
 //bot bomdy 
 global.owner = ['94753420144']
 global.ownertag = '94753420144' //ur tag number
-global.botname = '⚜Queen-Moonlight-Beta⚜' //ur bot name
-global.linkz = "https://github.com/SenuBoy" //your theme url which will be displayed on whatsapp
-global.websitex = "https://github.com/SenuBoy" //ur website to be displayed
-global.botscript = 'https://github.com/SenuBoy' //script link
+global.botname = 'Queen-Melissa-Beta' //ur bot name
+global.linkz = "https://github.com/SenuBoy/Queen-Melissa-Beta" //your theme url which will be displayed on whatsapp
+global.websitex = "https://github.com/SenuBoy/Queen-Melissa-Beta" //ur website to be displayed
+global.botscript = 'https://github.com/SenuBoy/Queen-Melissa-Beta' //script link
 global.reactmoji = "❤" //ur menu react emoji
 global.themeemoji = "🎸" //ur theme emoji
-global.packname = "Moonlight Beta" //ur sticker watermark packname
+global.packname = "Queen-Melissa-Beta" //ur sticker watermark packname
 global.author = "SenuBoy" //ur sticker watermark author
 
 //Bot theme media
@@ -82,7 +82,7 @@ global.ntilink = []
 //omther
 global.sessionName = 'session'
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⚜'
 global.mess = {
     success: 'Done ✓',
@@ -100,18 +100,18 @@ global.mess = {
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
     banChat: 'The bot was banned in this group, please contact the owner to unban'
 }
-    global.limitawal = {
+global.limitawal = {
     premium: "Infinity",
     free: 12,
     monayawal: 1000
 }
-   global.rpg = {
-   darahawal: 100,
-   besiawal: 15,
-   goldawal: 10,
-   emeraldawal: 5,
-   umpanawal: 5,
-   potionawal: 1
+global.rpg = {
+    darahawal: 100,
+    besiawal: 15,
+    goldawal: 10,
+    emeraldawal: 5,
+    umpanawal: 5,
+    potionawal: 1
 }
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -120,8 +120,8 @@ global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
+    fs.unwatchFile(file)
+    console.log(chalk.redBright(`Update'${__filename}'`))
+    delete require.cache[file]
+    require(file)
 })
