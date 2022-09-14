@@ -9028,7 +9028,7 @@ case 'alive': {
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/0mDLtyr/f2337149532299-58b7611d91faf.jpg` },
+    image: { url: `https://i.ibb.co/YD7PNws/Melissa-Kinrenka-full-2841338.jpg` },
     caption: `╔═════❬ ♛ ͟Queen-Moonlight-Beta ❭
 
 
@@ -9070,7 +9070,7 @@ case 'menu': {
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/0mDLtyr/f2337149532299-58b7611d91faf.jpg` },
+    image: { url: `https://i.ibb.co/YD7PNws/Melissa-Kinrenka-full-2841338.jpg` },
     caption: `╔═══════✪「 OWNER 」	
     ╠●  ${prefix}self
     ╠●  ${prefix}public
