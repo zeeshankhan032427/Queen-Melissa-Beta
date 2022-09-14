@@ -9094,7 +9094,7 @@ case 'menu': {
     ╠●  ${prefix}unblock [tag/number]
     ╠●  ${prefix}coowner [add/del]
     ╠●             
-    ╚═══❖⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜❯
+    ╚═══❖⚜ Queen-Moonlight-Beta ⚜❯
 
 
 
