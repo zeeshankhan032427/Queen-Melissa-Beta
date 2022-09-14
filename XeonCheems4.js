@@ -3197,7 +3197,7 @@ if (isBanChat) return reply(mess.banChat)
       from, 
       {
        text: "Group Settings",
-       footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+       footer: 'Queen-Melissa-Beta',
        title: "Set your group settings here......",
        buttonText: "Click Button",
        sections
@@ -6641,7 +6641,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: 'Queen-Moonlight-Beta',
+footer: 'Queen-Melissa-Beta',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6668,7 +6668,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: 'Queen-Moonlight-Beta',
+footer: 'Queen-Melissa-Beta',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6690,12 +6690,12 @@ case 'fb' :
    if (!q) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )      
    const isfb = q.includes('facebook.com')? q.includes('facebook.com') : q.includes('fb.watch')? q.includes('fb.watch') : ''
        if (!isfb) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )  
-  const msg = '*Queen-Moonlight-Beta FB Downloder*\n\n*📥Quality එක තෝරන්න්න📤*'
+  const msg = '*Queen-Melissa-Beta FB Downloader*\n\n*📥Quality එක තෝරන්න්න📤*'
 const buttons = [
 {buttonId: 'fbsd ' + q, buttonText: {displayText: '480p'}, type: 1},
 {buttonId: 'fbhd ' + q, buttonText: {displayText: '720p'}, type: 1},
 ]
-await XeonBotInc.sendMessage(from, {  text: msg , footer: `✫ ✫ ⚜Queen-Moonlight-Beta⚜ ✫ ✫` , buttons: buttons , headerType: 4} , { quoted: m } )  
+await XeonBotInc.sendMessage(from, {  text: msg , footer: `✫ ✫ ⚜Queen-Melissa-Beta⚜ ✫ ✫` , buttons: buttons , headerType: 4} , { quoted: m } )  
 
     } catch(e) {
   await XeonBotInc.sendMessage(from , { text: 'error\n\n' + e }, { quoted: m } )      
