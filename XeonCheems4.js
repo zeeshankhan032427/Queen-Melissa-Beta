@@ -6078,7 +6078,7 @@ case 'wamod': case 'mod': {
             let startnum = 0
             
             for (let x of listmenu) {
-            const list = {title: 'Whatsapp Mod Down By Vihanga MD 🪀',
+            const list = {title: 'Whatsapp Mod Down By Queen-Moonlight-Beta 🪀',
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
@@ -6096,7 +6096,7 @@ case 'wamod': case 'mod': {
 
        *Mod ගණන :-* 6`,
        footer: `${global.botname}`,
-       title: `*Mod Whatsapp Downloder By Vihanga Yt*`,
+       title: `*Mod Whatsapp Downloder By Queen-Moonlight-Beta*`,
        buttonText: "Select",
        sections
       }, { quoted : m })
@@ -6109,7 +6109,7 @@ if (!text) return reply(mess.linkm)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Cant Download This Mod`)
 const baby1 = await mediafireDl(text)
 if (baby1[0].size.split('MB')[0] >= 200) return reply('*File Over Limit* '+util.format(baby1))
-const result4 = `  *Mod Whatsapp Downloder By Vihanga Yt*
+const result4 = `  *Mod Whatsapp Downloder By Queen-Moonlight-Beta*
 
 _Mod Name :_ *${baby1[0].nama}*
 _Size :_ *${baby1[0].size}*`
@@ -6641,7 +6641,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: 'Queen-Moonlight-Beta',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6668,7 +6668,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: '𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾 𝙱𝙾𝚃',
+footer: 'Queen-Moonlight-Beta',
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -6690,12 +6690,12 @@ case 'fb' :
    if (!q) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )      
    const isfb = q.includes('facebook.com')? q.includes('facebook.com') : q.includes('fb.watch')? q.includes('fb.watch') : ''
        if (!isfb) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )  
-  const msg = '*NIPUNA* MD FB Downloder\n\n*📥Quality එක තෝරන්න්න📤*'
+  const msg = '*Queen-Moonlight-Beta FB Downloder*\n\n*📥Quality එක තෝරන්න්න📤*'
 const buttons = [
 {buttonId: 'fbsd ' + q, buttonText: {displayText: '480p'}, type: 1},
 {buttonId: 'fbhd ' + q, buttonText: {displayText: '720p'}, type: 1},
 ]
-await XeonBotInc.sendMessage(from, {  text: msg , footer: `✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫` , buttons: buttons , headerType: 4} , { quoted: m } )  
+await XeonBotInc.sendMessage(from, {  text: msg , footer: `✫ ✫ ⚜Queen-Moonlight-Beta⚜ ✫ ✫` , buttons: buttons , headerType: 4} , { quoted: m } )  
 
     } catch(e) {
   await XeonBotInc.sendMessage(from , { text: 'error\n\n' + e }, { quoted: m } )      
@@ -6843,7 +6843,7 @@ break
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/Nipuna-apps/Blue-Lione-Bot.git`)
+            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/SenuBoy/Queen-Moonlight-Beta`)
     if (!regex1.test(args[0])) return reply(mess.linkm)
     let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
@@ -7180,7 +7180,7 @@ if (isBan) return reply(mess.ban)
 if (!q) return reply(`What film you wanna search?\nExample: ${prefix}film Spiderman`)
 xeonkey.Film(q)
     .then(data => {console.log(data)
-    let krl = `*❒「  Film ${q} 」*\n*🌿 Author* : ${data[0].author}\n\n`
+    let krl = `*❒「 Queen-Moonlight-Beta Film ${q} 」*\n*🌿 Author* : ${data[0].author}\n\n`
 			    for (let i of data) {
                 krl += (`\n────────────────────\n\n *📍Title :* ${i.judul}\n *💸 Quality :* ${i.quality}\n *⛓️ Type : ${i.type}*\n *⌛ Uploaded :* ${i.upload}\n *🎈 Source :* ${i.link}`)
                 }
@@ -8158,7 +8158,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬ NIPUNA MD📌❭*
+caption: `*┏━━━❬ Queen-Moonlight-Beta ❭*
      
    *📥 YOUTUBE DOWNLODER* 
  
@@ -8172,10 +8172,10 @@ caption: `*┏━━━❬ NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : ✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫
+*┃BOT NAME : ✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫`,
+footer: `✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫`,
 buttons: buttons,
 headerType: 4,
 }
@@ -8194,7 +8194,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬ NIPUNA MD📌❭*
+caption: `*┏━━━❬ Queen-Moonlight-Beta ❭*
      
    *📥 SONG DOWNLODER* 
  
@@ -8208,10 +8208,10 @@ caption: `*┏━━━❬ NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : ✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫
+*┃BOT NAME : ✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫`,
+footer: `✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫`,
 buttons: buttons,
 headerType: 4,
 }
@@ -8226,7 +8226,7 @@ case 'ytdl': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 listMessage :{
  title: `Hi ${pushname}`,
- description: `*┏━━━❬ NIPUNA MD📌❭*
+ description: `*┏━━━❬ Queen-Moonlight-Beta ❭*
      
   📥 ADVANCE YOUTUBE DOWNLODER* 
 
@@ -8240,11 +8240,11 @@ listMessage :{
 
 *┃🔖Description : ${anu.description}
 
-*┃BOT NAME : ✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫
+*┃BOT NAME : ✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫
 
 ┗━━━━━━━━━❊`,
  buttonText: "Menu",
- footerText: `✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫`,
+ footerText: `✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫`,
  listType: "SINGLE_SELECT",
  sections: [{
     "title": "MP4",
@@ -8377,7 +8377,7 @@ break
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `*┏━━━❬ NIPUNA MD📌❭*
+ caption: `*┏━━━❬ Queen-Moonlight-Beta ❭*
      
    📥 VIDEO DOWNLODER* 
  
@@ -8391,10 +8391,10 @@ break
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME :* *✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫*
+*┃BOT NAME :* *✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫*
 
 ┗━━━━━━━━━❊`,
- footer: `✫ ✫ ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ✫ ✫`,
+ footer: `✫ ✫ ⚜ Queen-Moonlight-Beta ⚜ ✫ ✫`,
  buttons: buttons,
  headerType: 4,
  }
@@ -9029,7 +9029,7 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://i.ibb.co/0mDLtyr/f2337149532299-58b7611d91faf.jpg` },
-    caption: `╔═════❬ ♛ ͟𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮❭
+    caption: `╔═════❬ ♛ ͟Queen-Moonlight-Beta ❭
 
 
     │「 *Hi* ✌ 」
@@ -9041,7 +9041,7 @@ case 'alive': {
     ➤●  ⏳ ${runtime(process.uptime())}
     
     
-     ♞ 𝐈 𝐚𝐦  :  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜
+     ♞ 𝐈 𝐚𝐦  :  ⚜ Queen-Moonlight-Beta ⚜
 
     
         ♛ 𝘪 𝘢𝘮 𝘢𝘭𝘪𝘷𝘦 𝘯𝘰𝘸 ✅
@@ -9051,12 +9051,12 @@ case 'alive': {
     
     ➤● 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 ♕: 1.0.1
     
-    ➤● 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 : 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮
+    ➤● 𝐁𝐨𝐭 𝐧𝐚𝐦𝐞 : Queen-Moonlight-Beta
     
     ➤● 𝐎𝐰𝐞𝐧𝐞𝐫 𝐍𝐨:${global.owner} 
       
   *╚═══❖•ೋ° °ೋ•❖═══╝*`,
-    footer: `⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜`,
+    footer: `⚜ Queen-Moonlight-Beta ⚜`,
     buttons: buttons,
     headerType: 4,
     }
@@ -9099,7 +9099,7 @@ case 'menu': {
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 GROUP 」	        
     ╠● ${prefix}grousetting
@@ -9138,12 +9138,12 @@ case 'menu': {
     ╠● ${prefix}checkvote
     ╠● ${prefix}delvote
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 MAKER 」
     ╠● ${prefix}candy
@@ -9249,12 +9249,12 @@ case 'menu': {
     ╠●  ${prefix}watercolor
     ╠●  ${prefix}classic
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═════✪「 DOWNLOAD 」	
     ╠● ${prefix}instagram [url]
@@ -9279,11 +9279,11 @@ case 'menu': {
     ╠● ${prefix}wamod
     ╠● ${prefix}wa
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 SEARCH 」	
     ╠● ${prefix}play [query]
@@ -9313,12 +9313,12 @@ case 'menu': {
     ╠● ${prefix}mcserver [ip|port]
     ╠● ${prefix}drakor [query]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 CONVERT 」
     ╠● ${prefix}toimage [reply stick]
@@ -9350,12 +9350,12 @@ case 'menu': {
     ╠● ${prefix}slow [reply aud]
     ╠● ${prefix}squirrel [reply aud]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 IMG EFFECT 」
     ╠● ${prefix}wanted
@@ -9373,11 +9373,11 @@ case 'menu': {
     ╠● ${prefix}deleteeffect
     ╠● ${prefix}pixelate
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 RANDOM IMG 」
     ╠● ${prefix}coffee
@@ -9393,12 +9393,12 @@ case 'menu': {
     ╠● ${prefix}animewall [query]
     ╠●  ${prefix}animewall2 [query]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 EMOTE 」
     ╠● ${prefix}instagramemoji
@@ -9414,12 +9414,12 @@ case 'menu': {
     ╠● ${prefix}pediaemoji
     ╠● ${prefix}microsoftemoji
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 ANIME 」
     ╠● ${prefix}naruto
@@ -9471,12 +9471,12 @@ case 'menu': {
     ╠● ${prefix}smug2
     ╠● ${prefix}couplepp
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠● 
     ╠══════✪「 STICKER 」
     ╠●  ${prefix}patrick
@@ -9487,12 +9487,12 @@ case 'menu': {
     ╠●  ${prefix}doge
     ╠●  ${prefix}lovesticker
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠════✪「 ANIME STICKER 」
     ╠● ${prefix}loli
@@ -9525,12 +9525,12 @@ case 'menu': {
     ╠● ${prefix}neko
     ╠● ${prefix}gura
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠● 
     ╠═══════✪「 NSFW 」
     ╠● ${prefix}hentaivideo
@@ -9559,12 +9559,12 @@ case 'menu': {
     ╠● ${prefix}hneko
     ╠● ${prefix}nwaifu
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠═══════✪「 FUN 」
     ╠●  ${prefix}how [text
@@ -9632,12 +9632,12 @@ case 'menu': {
     ╠●  ${prefix}fuckgirl
     ╠●  ${prefix}plygirl
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══════✪「 SOUND 」
     ╠●  ${prefix}sound1
@@ -9801,12 +9801,12 @@ case 'menu': {
     ╠● ${prefix}sound160
     ╠● ${prefix}sound161
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠══════✪「 GAME 」
     ╠● ${prefix}truth
     ╠● ${prefix}dare
@@ -9816,12 +9816,12 @@ case 'menu': {
     ╠● ${prefix}math [mode]
     ╠● ${prefix}suitpvp [tag]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══✪「 ANONYMOUS CHAT 」
     ╠● ${prefix}anonymous
@@ -9830,23 +9830,23 @@ case 'menu': {
     ╠● ${prefix}leave
     ╠══════✪「 TOOL 」
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
      
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠● ${prefix}translate [text]
     ╠● ${prefix}fliptext [text]
     ╠● ${prefix}toletter [number]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══════✪「 DATABASE 」
     ╠● ${prefix}setcmd
@@ -9858,12 +9858,12 @@ case 'menu': {
     ╠● ${prefix}getmsg
     ╠● ${prefix}delmsg
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══════✪「 lNDO 」
     ╠● ${prefix}darkjoke
@@ -9891,12 +9891,12 @@ case 'menu': {
     ╠● ${prefix}earthquake
     ╠● ${prefix}tvschedule 
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══════✪「 INDO HSCOPE 」
     ╠● ${prefix}nomorhoki
@@ -9930,13 +9930,13 @@ case 'menu': {
     ╠● ${prefix}zodiak
     ╠● ${prefix}shio
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
  
 
 
 
 
-   *╔═════ ☭ Nipuna ═════*
+   *╔═════ ☭ Queen-Moonlight-Beta ═════*
     ╠●
     ╠══════✪「 OTHER 」
     ╠●  ${prefix}afk
@@ -9958,7 +9958,7 @@ case 'menu': {
     ╠●  ${prefix}request
     ╠● ${prefix}report [bug]
     ╠●             
-    ╚═══❖  ⚜ 𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮 ⚜ ❯
+    ╚═══❖  ⚜ Queen-Moonlight-Beta ⚜ ❯
 `,
     footer: `${botname}`,
     buttons: buttons,
@@ -9971,9 +9971,9 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
-Kumuthu & Vihanga & KAVEESHA
-NIPUNA (Me)
-My family
+Moonlight & King Raya & RichaBoy
+SenuBoy (Me)
+Bimu
 And all friends who helped assemble this script !!!`)
 break
             default:
