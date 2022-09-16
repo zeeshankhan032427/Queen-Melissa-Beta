@@ -8,7 +8,7 @@ global.APIs = {
 
 //Api Key\\
 global.APIKeys = {
-    'https://zenzapis.xyz': '5b6a9902b1',
+    'https://zenzapis.xyz': 'a4060c904b',
 }
 
 
@@ -42,7 +42,7 @@ global.location = "SriLanka, Kaluthara, Panadura" //ur location
 
 //bot bomdy 
 global.owner = ['94753420144']
-global.ownertag = '' //ur tag number
+global.ownertag = '94753420144' //ur tag number
 global.botname = 'Queen-Melissa-Beta' //ur bot name
 global.linkz = "https://github.com/SenuBoy/Queen-Melissa-Beta" //your theme url which will be displayed on whatsapp
 global.websitex = "https://github.com/SenuBoy/Queen-Melissa-Beta" //ur website to be displayed
