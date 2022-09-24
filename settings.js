@@ -35,7 +35,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['94753420144'] //ur owner number
-global.ownername = "94753420144" //ur owner name
+global.ownername = "Mr.Senuwa" //ur owner name
 global.ytname = "YT: SenuBoy" //ur yt chanel name
 global.socialm = "GitHub: SenuBoy" //ur github or insta name
 global.location = "SriLanka, Kaluthara, Panadura" //ur location
@@ -47,8 +47,8 @@ global.botname = 'Queen-Melissa-Beta' //ur bot name
 global.linkz = "https://github.com/SenuBoy/Queen-Melissa-Beta" //your theme url which will be displayed on whatsapp
 global.websitex = "https://github.com/SenuBoy/Queen-Melissa-Beta" //ur website to be displayed
 global.botscript = 'https://github.com/SenuBoy/Queen-Melissa-Beta' //script link
-global.reactmoji = "❤" //ur menu react emoji
-global.themeemoji = "🎸" //ur theme emoji
+global.reactmoji = "📄" //ur menu react emoji
+global.themeemoji = "🪀" //ur theme emoji
 global.packname = "Queen-Melissa-Beta" //ur sticker watermark packname
 global.author = "SenuBoy" //ur sticker watermark author
 
